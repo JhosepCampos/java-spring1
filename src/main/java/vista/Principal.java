@@ -16,7 +16,7 @@ public class Principal {
 		Cliente cliente = contexto.getBean(Cliente.class);
 		TipoCliente tipo = contexto.getBean(TipoCliente.class);
 
-		System.out.println("Hola a todos");
+		System.out.println("Hola a todo el Mundo");
 		System.out.println("Id: " + tipo.getId());
 		System.out.println("Tipo: " + tipo.getTipo());
 		System.out.println("-------------------------");
